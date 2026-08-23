@@ -18,11 +18,15 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+    metadataBase: new URL(
+    "https://abdur-rehman-portfolio-lemon.vercel.app",
+  ),
   title: {
     default:
       "Abdur Rehman | AI & Machine Learning Portfolio",
     template: "%s | Abdur Rehman",
   },
+  
 
   description:
     "Portfolio of Abdur Rehman, a computer engineer building machine-learning, deep-learning, computer-vision and web applications.",
