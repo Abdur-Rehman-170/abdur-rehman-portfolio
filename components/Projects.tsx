@@ -80,7 +80,6 @@ export default function Projects() {
 
               <h2 className="max-w-3xl text-4xl font-semibold tracking-[-0.04em] text-[#F5F5F5] md:text-6xl">
                 Projects built through{" "}
-
                 <span className="text-[#4D8DFF]">
                   practical learning.
                 </span>
@@ -164,12 +163,12 @@ export default function Projects() {
 
                 <div className="mt-9 flex flex-wrap items-center gap-5">
                   <a
-                    href="https://github.com/Abdur-Rehman-170"
+                    href="https://github.com/Abdur-Rehman-170/ai-healthcare-assistant"
                     target="_blank"
                     rel="noreferrer"
                     className="group/link flex items-center gap-3 rounded-md bg-[#4D8DFF] px-5 py-3 text-sm font-medium text-white transition duration-300 hover:-translate-y-1 hover:bg-[#6EA3FF] hover:shadow-[0_12px_30px_rgba(77,141,255,0.22)]"
                   >
-                    Visit GitHub
+                    View FYP repository
 
                     <span className="transition-transform duration-300 group-hover/link:-translate-y-0.5 group-hover/link:translate-x-0.5">
                       ↗
@@ -177,7 +176,7 @@ export default function Projects() {
                   </a>
 
                   <p className="text-xs text-[#71717A]">
-                    Direct repository link will be added after upload
+                    Source code, trained models and setup guide
                   </p>
                 </div>
               </div>
